@@ -1,0 +1,46 @@
+I learn a lot by now actually
+mainly about using the command line
+using diff to spot
+differences betweenf files
+when you can't seem them by eye
+setting up sublime so i can use it
+from the terminal
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+If you accidentally delete code that works, it'll allow you
+to go back and find the code again
+
+If you have different version you can compare them and find the
+differences
+
+good in case your computer crashes
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Pros of manually choosing:
+- More flexibility
+- More control - sometimes you will make a lot of changes in a small space of time and sometimes you'll make a few changes in long period
+of time, auto saving won't be able to distinguis these moments
+- having a named commit will make it easier to figure out, where problems come from or changes come from because good named commits will pinpoint
+what that person was doing in the document
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+- Google docs probably doesn't use that many files that are interelated so saving them separately makes more sense. 
+
+- Git is for coders, who are likely working on bigger projects with multiple files involved that would be changed at any time.
+
+How can you use the commands git log and git diff to view the history of files?
+
+Git log will go through all the commits and show you what files have changed, how many insertions/deletions have been made and will show you all the changes over time. you can scroll through these
+
+Git diff shows you the difference between two files and if you have config set properly will highlight the new code added and the old code deleted. very powerful stuff. it just shows you the difference between the two bits of code
+
+How might using version control make you more confident to make changes that could break something?
+
+It means you can easily see where the 'breaking' happened, what code exactly did this. It would then also allow you to quickly revert to the none broken version or correct the mistake you made. 
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to try and use git to make changes to programs and look through the diff function, log function and checkout function to allow me full access to the cool things i can do in this bash shell.
