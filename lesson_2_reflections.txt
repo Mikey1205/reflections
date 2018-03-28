@@ -1,0 +1,7 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+- it initialises a hidden folder. hidden folders start with a dot ahead of them. this will store information on the files so I can use them with git, such as information on commits etc. 
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+staging area is a subset of the working directory that includes all or a select few files from the working directory. after we intialise our files using git add then they are in our staging area. then we can make commits on them and they will be in our repository.
