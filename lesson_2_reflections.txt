@@ -5,3 +5,23 @@ What happens when you initialize a repository? Why do you need to do it?
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 staging area is a subset of the working directory that includes all or a select few files from the working directory. after we intialise our files using git add then they are in our staging area. then we can make commits on them and they will be in our repository.
+
+How can you use the staging area to make sure you have one commit per logical change?
+only add files to the staging area after we'e made one or two changes and then commit those changes. that way we're only modifying one or two files and then commit those changes so we can have one change per logical change
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches allow you to create different versions of the program without worrying about ruining the working one. It allows you to add experimental features or try different languages without the risk of 'ruining' the working mastercopy. 
+
+How do the diagrams help you visualize the branch structure?
+
+It helps me understand the history and what each parent of each commit is. Visual structure helps a lot with understanding of the program. 
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+result of merging two branches is having a new master and merging the files together. We represent it on the diagram like that so we know the previous commits from the previous branches and we know where the parents are. this way we can still move through the commits on the branches but have one new master branch head. 
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+gits automatic merging can mean you can very quickly add new functions, features to the program and multiple people can be working on a file and then you can add their work together and then still keep track of individual changes you've made.
+merging manually it would be hard to track back individual peoples work and what they did. also knowing which person did which piece of work 
