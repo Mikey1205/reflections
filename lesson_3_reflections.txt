@@ -7,3 +7,11 @@ while not on your current computer too.
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 You may want to check to make sure there are no conflicts? Make sure that you are not overwriting files or any drastic changes have been made?
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Forks - only used on github.com and basically clone a repository to your own account. But it still links back and records the clone
+
+clones - clone to your own machine or clone from a github repository to your account. you would use this like we did earlier to clone a project to your computer so you could use it and start making changes to the project.
+
+branches - branching projects to add new features, languages, experimental features without effecting master branch.
